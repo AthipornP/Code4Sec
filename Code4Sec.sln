@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexMatchSample", "Code4Sec.RegexMatchSample\RegexMatchSample.csproj", "{5B3F6584-1DD7-4E98-8C0E-40EBB7FFF41D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexMatchSample", "Code4Sec.RegexMatchSample\RegexMatchSample.csproj", "{5B3F6584-1DD7-4E98-8C0E-40EBB7FFF41D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryValidateModelSample", "TryValidateModelSample\TryValidateModelSample.csproj", "{3BD44A5A-0D7A-4D7E-BFE7-BA00B972333E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryValidateModelSample", "TryValidateModelSample\TryValidateModelSample.csproj", "{3BD44A5A-0D7A-4D7E-BFE7-BA00B972333E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureApplicationCookieSample", "ConfigureApplicationCookieSample\ConfigureApplicationCookieSample.csproj", "{4E66170B-272B-4097-A4D3-27802F4BAF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureApplicationCookieSample", "ConfigureApplicationCookieSample\ConfigureApplicationCookieSample.csproj", "{4E66170B-272B-4097-A4D3-27802F4BAF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizeAttributeSample", "AuthorizeAttributeSample\AuthorizeAttributeSample.csproj", "{5DFEAB97-43D9-459A-9889-8FF05F336197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizeAttributeSample", "AuthorizeAttributeSample\AuthorizeAttributeSample.csproj", "{5DFEAB97-43D9-459A-9889-8FF05F336197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyLoadFileSample", "AssemblyLoadFileSample\AssemblyLoadFileSample.csproj", "{FAAD3AA5-BD96-49E2-9CAF-AFA5254963B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyLoadFileSample", "AssemblyLoadFileSample\AssemblyLoadFileSample.csproj", "{FAAD3AA5-BD96-49E2-9CAF-AFA5254963B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectedMemorySample", "ProtectedMemorySample\ProtectedMemorySample.csproj", "{8B3D1522-DFAE-4CF4-8BB4-1F29D5D5A657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FAAD3AA5-BD96-49E2-9CAF-AFA5254963B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAAD3AA5-BD96-49E2-9CAF-AFA5254963B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAAD3AA5-BD96-49E2-9CAF-AFA5254963B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3D1522-DFAE-4CF4-8BB4-1F29D5D5A657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3D1522-DFAE-4CF4-8BB4-1F29D5D5A657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3D1522-DFAE-4CF4-8BB4-1F29D5D5A657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3D1522-DFAE-4CF4-8BB4-1F29D5D5A657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
